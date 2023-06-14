@@ -7,10 +7,41 @@ public class Produto {
 	private String descricao;
 	private String codigoBarras;
 	private double proco;
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getDescricao() {
+		return descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public String getCodigoBarras() {
+		return codigoBarras;
+	}
+	public void setCodigoBarras(String codigoBarras) {
+		this.codigoBarras = codigoBarras;
+	}
+	public double getProco() {
+		return proco;
+	}
+	public void setProco(double proco) {
+		this.proco = proco;
+	}
 	
 	// public : acesso liberado para todas as classes.
 	// private: acesso permite apenas os membros
 	//			da propria classe
 	//			esntende-se por membros(atributos e ou metodos)
+	
 	
 }
