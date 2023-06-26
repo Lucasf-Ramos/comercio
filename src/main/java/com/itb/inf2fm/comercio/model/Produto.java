@@ -6,7 +6,7 @@ public class Produto {
 	private String nome;
 	private String descricao;
 	private String codigoBarras;
-	private double proco;
+	private double preco;
 	public Long getId() {
 		return id;
 	}
@@ -31,11 +31,11 @@ public class Produto {
 	public void setCodigoBarras(String codigoBarras) {
 		this.codigoBarras = codigoBarras;
 	}
-	public double getProco() {
-		return proco;
+	public double getPreco() {
+		return preco;
 	}
 	public void setProco(double proco) {
-		this.proco = proco;
+		this.preco = proco;
 	}
 	
 	// public : acesso liberado para todas as classes.
