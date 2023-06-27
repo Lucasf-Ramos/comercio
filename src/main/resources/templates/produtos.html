@@ -43,7 +43,7 @@
                 .	<td th:text="${produto.codigoBarras}"></td>
 					
                 .	<td th:text="${produto.preco}"></td>
-                	
+                	<td th:text="${produto.codStatus} ? 'Ativo' : 'Inativo'"></td>
 					<td>
 					
 					<a href="#" class="ntn btn-primary">

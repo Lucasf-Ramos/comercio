@@ -39,10 +39,13 @@ public class Produto {
 	public void setProco(double proco) {
 		this.preco = proco;
 	}
+	
 	public void setCodStatus(boolean codStatus) {
 		this.codStatus = codStatus;
 	}
-	
+	public boolean getCodStatus() {
+		return codStatus;
+	}
 	// public : acesso liberado para todas as classes.
 	// private: acesso permite apenas os membros
 	//			da propria classe
