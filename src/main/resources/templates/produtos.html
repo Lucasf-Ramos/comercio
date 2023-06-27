@@ -29,6 +29,7 @@
                         <th>Descrição</th>
                         <th>Código de barras</th>
                         <th>Preço</th>
+                        <th>CodStatus</th>
                         <th><a href="">
                             Editar
                         </a></th>
@@ -40,9 +41,17 @@
                 .	<td th:text="${produto.nome}"></td>
                    <td th:text="${produto.descricao}"></td>
                 .	<td th:text="${produto.codigoBarras}"></td>
-
+					
                 .	<td th:text="${produto.preco}"></td>
-					<td><a href="#">Editar</a></td>
+                	
+					<td>
+					
+					<a href="#" class="ntn btn-primary">
+					<i class="fas fa-edit ml-2"></i>
+					
+					</a>
+					
+					</td>
                 	
                 </tr>
                 </tbody>

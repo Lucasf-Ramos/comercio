@@ -7,6 +7,8 @@ public class Produto {
 	private String descricao;
 	private String codigoBarras;
 	private double preco;
+	private boolean codStatus;
+	
 	public Long getId() {
 		return id;
 	}
@@ -36,6 +38,9 @@ public class Produto {
 	}
 	public void setProco(double proco) {
 		this.preco = proco;
+	}
+	public void setCodStatus(boolean codStatus) {
+		this.codStatus = codStatus;
 	}
 	
 	// public : acesso liberado para todas as classes.

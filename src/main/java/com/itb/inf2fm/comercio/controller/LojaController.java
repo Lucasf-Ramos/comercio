@@ -22,6 +22,7 @@ public class LojaController {
 		p1.setCodigoBarras("13jho123f");
 		p1.setDescricao("Produto Linha Branca com painel ");
 		p1.setProco(200);
+		p1.setCodStatus(true);
 		
 		
 		Produto p2 = new Produto();
@@ -29,7 +30,8 @@ public class LojaController {
 		p2.setNome("televisão");
 		p2.setCodigoBarras("sdasdasdasd");
 		p2.setDescricao("Televisor tela plana let Samsung");
-		p2.setProco(1000000000.99);
+		p2.setProco(1000.99);
+		p1.setCodStatus(true);
 		
 		Produto p3 = new Produto();
 		p3.setId((long) 6021);
@@ -37,6 +39,7 @@ public class LojaController {
 		p3.setCodigoBarras("sdasdasdasd");
 		p3.setDescricao("Mesa digitaluzadorea");
 		p3.setProco(178.99);
+		p1.setCodStatus(true);
 		
 		listaDeProdutos.add(p1);
 		listaDeProdutos.add(p2);
